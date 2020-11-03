@@ -1,18 +1,15 @@
 /************************************************************************
     File: sudokuboard.cc
-    Author: Truong Pham
-    Date: 3/6/19
-    Assignment:  Sudoku
 
-    A sudokuboard class that create a sudoku board using a dynamic array
-    or array. The class has methods that can return the size of the board,
-    print the board, check if the board allows to place certain item, check
-    if a place on the board is empty, and if the whole board is solved.
-    Other methods in the class also allows the user to place items on or
-    remove items off the board.
+    Description: A sudokuboard class that create a sudoku board using a 
+                 dynamic array or array. The class has methods that can 
+                 return the size of the board, print the board, check if 
+                 the board allows to place certain item, check if a place 
+                 on the board is empty, and if the whole board is solved. 
+                 Other methods in the class also allows the user to place 
+                 items on or remove items off the board.
 
 ************************************************************************/
-
 #include <iostream>
 #include "sudokuboard.h"
 
