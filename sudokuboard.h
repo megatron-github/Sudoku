@@ -1,12 +1,9 @@
 /************************************************************************
     File: sudokuboard.h
-    Author: Truong Pham
-    Date: 3/6/19
-    Assignment:  Sudoku
 
-    A sudokuboard class header. The header declares instances and methods
-    that user can use with the sudokuboard class to build and solve the
-    sudoku board.
+    Description: A sudokuboard class header. The header declares instances 
+                 and methods that user can use with the sudokuboard class 
+                 to build and solve the sudoku board.
 
 ************************************************************************/
 
