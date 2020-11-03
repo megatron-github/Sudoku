@@ -6,7 +6,6 @@
                  to build and solve the sudoku board.
 
 ************************************************************************/
-
 #include <cstdlib>
 
 class sudokuboard {
