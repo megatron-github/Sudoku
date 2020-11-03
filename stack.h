@@ -1,13 +1,12 @@
 /************************************************************************
     File: stack.h
-    Author: Truong Pham
-    Date: 3/6/19
-    Assignment:  Sudoku
 
-		A stack class header. The header declares instances and methods in the
-		stack class in which the user can use to save and record each move
-		during the process of the sudoku board. The methods of the stack class
-		make it possible for user to implement the back tracking methods.
+    Description: A stack class header. The header declares instances and 
+    		 methods in the stack class in which the user can use to 
+		 save and record each move during the process of the 
+		 sudoku board. The methods of the stack class make it 
+		 possible for user to implement the back tracking 
+		 methods.
 
 ************************************************************************/
 
