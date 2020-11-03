@@ -1,11 +1,11 @@
-/************************************************************************
+/**************************************************************************
     File: sudokuboard.h
 
     Description: A sudokuboard class header. The header declares instances 
                  and methods that user can use with the sudokuboard class 
                  to build and solve the sudoku board.
 
-************************************************************************/
+**************************************************************************/
 #include <cstdlib>
 
 class sudokuboard {
