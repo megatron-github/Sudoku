@@ -1,17 +1,14 @@
 /************************************************************************
     File: stack.cc
-    Author: Truong Pham
-    Date: 3/6/19
-    Assignment:  Sudoku
 
-    A stack class that created by a linked list and node pointers. Each
-    node in the that made up the stack allow user to input data and
-    recall, or remove the input data. Stack uses methods such as push, pop,
-    top, and empty to have the first-in-last-out methods in which similar
-    to the real world stacking.
+    Description:  A stack class that created by a linked list and node 
+                  pointers. Each node in the that made up the stack allow 
+                  user to input data and recall, or remove the input data. 
+                  Stack uses methods such as push, pop, top, and empty to 
+                  have the first-in-last-out methods in which similar to 
+                  the real world stacking.
 
 ************************************************************************/
-
 #include <iostream>
 #include "stack.h"
 
