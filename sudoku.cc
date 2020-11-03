@@ -1,18 +1,15 @@
 /************************************************************************
     File: sudoku.cc
-    Author: Truong Pham
-    Date: 3/6/19
-    Assignment:  Sudoku
 
-    This program that take an input of a sudoku board and solve the
-    board using the technique of backtracking. The process of solving
-    and back tracking uses a first-in-last-out stack to save the data
-    during each step of solving and back tracking. The program locate the
-    most constrained location on the board and place smallest possible
-    value on that position.
+    Description: This program that take an input of a sudoku board and 
+                 solve the board using the technique of backtracking. 
+                 The process of solving and back tracking uses a 
+                 first-in-last-out stack to save the data during each 
+                 step of solving and back tracking. The program locate 
+                 the most constrained location on the board and place 
+                 smallest possible value on that position.
 
 ************************************************************************/
-
 #include <iostream>
 #include "sudokuboard.h"
 #include "stack.h"
@@ -91,7 +88,6 @@ bool need_backtrack(sudokuboard & board, stack & stack){
   stack.push(n);
   board.place(row, col, num);
   return false;
-
 }
 
 void proceed(sudokuboard & board, stack & stack, size_t row, size_t col){
