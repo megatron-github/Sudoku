@@ -1,16 +1,16 @@
 all: sudoku
 
 sudoku: sudoku.o sudokuboard.o stack.o
-	g++ -o sudoku sudoku.o sudokuboard.o stack.o
+	g++ -o builds/sudoku builds/*
 
-stack.o: stack.cc stack.h
-	g++ -c stack.cc
+stack.o: stack/*
+	g++ -c stack/stack.cc -o builds/stack.o
 
-sudoku.o: sudoku.cc sudokuboard.h stack.h
-	g++ -c sudoku.cc
+sudoku.o: sudoku/* stack/stack.h
+	g++ -c sudoku/sudoku.cc -o builds/sudoku.o
 
-sudokuboard.o: sudokuboard.cc sudokuboard.h
-	g++ -c sudokuboard.cc
+sudokuboard.o: sudoku/*
+	g++ -c sudoku/sudokuboard.cc -o builds/sudokuboard.o
 
 clean:
-	rm -f *.o sudoku *~
+	rm -rf *~ builds/*
